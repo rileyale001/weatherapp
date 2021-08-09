@@ -29,10 +29,10 @@ The following demonstrates the application functionality:
 
 ## Screenshots
 
-![Screenshot](img/hwss.PNG)
-![Screenshot](img/hwss1.PNG)
-![Screenshot](img/hwss2.PNG)
-![Screenshot](img/hwss3.PNG)
+![Screenshot](img/hw5ss.PNG)
+![Screenshot](img/hw5ss1.PNG)
+![Screenshot](img/hw5ss2.PNG)
+![Screenshot](img/hw5ss3.PNG)
 
 ## Links
 
