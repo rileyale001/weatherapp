@@ -36,5 +36,5 @@ The following demonstrates the application functionality:
 
 ## Links
 
-![Github](https://github.com/rileyale001/julianplanscheduler)
-![Website Link](https://rileyale001.github.io/julianplanscheduler/)
+![Github](https://github.com/rileyale001/weatherapp)
+![Website Link](https://rileyale001.github.io/weatherapp/)
