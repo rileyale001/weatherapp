@@ -1,0 +1,41 @@
+#searchingCities p {
+    font-weight: lighter;
+    font-size: 20px;
+
+}
+#forecastContainer p {
+    font-weight: lighter;
+    font-size: 24px;
+}
+#forecastDate1 p,
+#forecastDate2 p,
+#forecastDate3 p,
+#forecastDate4 p,
+#forecastDate5 p {
+    color: whitesmoke;
+    margin: 6px 0px 0px 0;
+}
+#searchCities button {
+    width: fit-content;
+}
+#selectCity #uvIndex {
+    width: fit-content;
+    border-radius: 6px;
+    background-color: yellow;
+    padding: 4px 6px;
+}
+.hidden {
+    display: none;
+}
+@media screen and (max-width: 770px) {
+    .forecastContainer {
+        width: 100%;
+        margin-bottom: 6px;
+        flex-direction: column;
+    }
+    #city {
+        color: red;
+        font-size: 1.5rem;
+    }
+}
+

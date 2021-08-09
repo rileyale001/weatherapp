@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <!--Start containing weather dashboard-->
+    <header class="container-fluid py-2 bg-secondary text-center text-white font-weight bold">
+    <h1 id="headerDashboard">Weather Application</h1>
+    </header>
+    <div id="searchToDisplay" class="container-fluid row">
+        <!-- search cities will display on the left -->
+    <aside id="searchingCities" class="col-lg-3 ">
+        <p>Search City</p>
+        <div class="input-group mb-3">
+            <input id="searchCity" class="form-control col-lg-3" placeholder="Search City">
+            <div class="input-group-append">
+                <button id="searchButton" type="button" class="btn btn-primary"><i class="fa-fa-search"></i></button>
+            </div>
+        </div>
+        <!-- This might be broken -->
+        <div id="saveCity">
+            <div id="searchCities" class="btn-group-vertical col-12">
+            </div>
+        </div>
+    </aside>
+    <!-- need to display weather and location here  -->
+    <div id="weatherInfo" class="col-lg-9 mt-3 hidden">
+        <div id="selectCity" class="card p-3 rounded">
+            <h2 id="location">
+                <img>
+            </h2>
+            <p id="temperature">Temp:</p>
+            <p id="uvIndex">UV:</p>
+        </div>
+        <!-- Container for weather forecast here -->
+        <div id="forecastContainer" class="hidden">
+            <p>5 Day forecast</p>
+            <div id="multiForecast" class="container row justify-content-between">
+                <div class="forecastBlock card bg-primary rounded text-black col-m-12">
+                    <div id="forecastDate1" class="card-body">
+                    <h6 id="date1">Day One</h6>
+                    <img id="imgDate1">
+                    <p id="tempDate1">Temp Day 1</p>
+                    <p id="humidityDate1">Humudity</p>
+            </div>
+        </div>
+        <div class="forecastContainer card bg-primary rounded text-black col-s-12">
+            <div id="forecastDate2" class="card-body">
+            <h6 id="date2">Day Two</h6>
+            <img id="imgDate2">
+            <p id="tempDate2">Temp Day 2</p>
+            <p id="humidityDate2">Humudity</p>
+    </div>
+</div>
+<div class="forecastContainer card bg-primary rounded text-black col-s-12">
+    <div id="forcastDate3" class="card-body">
+    <h6 id="date3">Day Three</h6>
+    <img id="imgDate3">
+    <p id="tempDate3">Temp Day 3</p>
+    <p id="humidityDate3">Humudity</p>
+</div>
+</div>
+<div class="forecastContainer card bg-primary rounded text-black col-s-12">
+    <div id="forecastDate4" class="card-body">
+    <h6 id="date4">Day Four</h6>
+    <img id="imgDate4">
+    <p id="tempDate4">Temp day Four</p>
+    <p id="humidityDate4">Humudity</p>
+</div>
+</div>
+<div class="forecastContainer card bg-primary rounded text-black col-s-12">
+    <div id="forecastDate5" class="card-body">
+    <h6 id="date5">Day Five</h6>
+    <img id="imgDate5">
+    <p id="tempDate5">Temp day five</p>
+    <p id="humidityDate5">Humudity</p>
+</div>
+</div>
+            </div>
+            </div>
+    </div>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+<script src="./index.js"></script>
+</body>
+</html>
